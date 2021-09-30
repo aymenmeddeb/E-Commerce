@@ -1,0 +1,21 @@
+.livraison{
+    font-size: 25px;
+    font-style:oblique;
+    color: rgb(21, 159, 184);
+    margin: 5px;
+
+
+    
+}
+.live-div{
+    width: 650px;
+    margin: auto;
+    align-content: center;
+    text-align: center
+}
+.live-div-titre {
+    color: blue;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center
+}
+

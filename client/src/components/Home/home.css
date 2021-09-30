@@ -1,0 +1,151 @@
+.background {
+    height: 200px;
+    background-color: #fc0707;
+    background: -moz-linear-gradient(right,#fa0c03  0%,#2909f3 50%) !important;
+    background: -webkit-linear-gradient(right,#f80b03  0%,#2a0bf0 50%) !important;
+    background: linear-gradient(to right,#fa0b03  0%,#290bee  50%) !important;
+}
+
+
+.containere {
+    margin: 0.5% auto;
+    width: 200px;
+    height: 150px;
+    position: relative;
+    perspective: 1500px
+}
+
+#carousel {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style:preserve-3d;
+    animation: rotation 20s infinite linear;
+
+}
+
+#carousel:hover {
+    animation-play-state: paused
+}
+
+#carousel figure {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height:50%px;
+    left: 10px;
+    top: 10px;
+    background: black;
+    overflow: hidden;
+    border: solid 4px black
+}
+
+#carousel figure:nth-child(1) {
+    transform: rotateY(0deg) translateZ(288px)
+}
+
+#carousel figure:nth-child(2) {
+    transform: rotateY(40deg) translateZ(288px)
+}
+
+#carousel figure:nth-child(3) {
+    transform: rotateY(80deg) translateZ(288px)
+}
+
+#carousel figure:nth-child(4) {
+    transform: rotateY(120deg) translateZ(288px)
+}
+
+#carousel figure:nth-child(5) {
+    transform: rotateY(160deg) translateZ(288px)
+}
+
+#carousel figure:nth-child(6) {
+    transform: rotateY(200deg) translateZ(288px)
+}
+
+#carousel figure:nth-child(7) {
+    transform: rotateY(240deg) translateZ(288px)
+}
+
+#carousel figure:nth-child(8) {
+    transform: rotateY(280deg) translateZ(288px)
+}
+
+#carousel figure:nth-child(9) {
+    transform: rotateY(320deg) translateZ(288px)
+}
+
+#carousel figure img {
+    height: 180px;
+   
+}
+
+img:hover {
+    -webkit-filter: grayscale(0);
+    transform: scale(1.2, 1.2)
+}
+
+@keyframes rotation {
+    from {
+        transform: rotateY(0deg)
+    }
+
+    to {
+        transform: rotateY(360deg)
+    }
+}
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+/* Main CSS */
+.grid-wrapper > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.grid-wrapper > div > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.grid-wrapper {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-auto-rows: 200px;
+	grid-auto-flow: dense;
+}
+.grid-wrapper .wide {
+	grid-column: span 2;
+}
+.grid-wrapper .tall {
+	grid-row: span 2;
+}
+.grid-wrapper .big {
+	grid-column: span 2;
+	grid-row: span 2;
+}
+.margimg{
+    margin: 20px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

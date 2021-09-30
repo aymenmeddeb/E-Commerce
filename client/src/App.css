@@ -1,0 +1,63 @@
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 22px
+}
+
+.go {
+    color: #119cff
+}
+
+.home {
+    color: #0489e7
+}
+
+.nav-item {
+    font-weight: 500;
+    color: #000000
+}
+.image-home{
+    height: 550px;
+    width: 100%;
+}
+.bi-bi-person-circle{
+    color: blue;
+}
+@import url(http://fonts.googleapis.com/css?family=Anaheim);
+
+.sectione{
+    height: 35px;
+    background-color:rgb(1, 0, 7);
+    display: flex;
+    justify-content: flex-end;
+    color:blue;
+    
+}
+footer {
+    background: #4300fa;
+    padding: 25px;
+   
+
+}
+footer a {
+    color: #f8f9fa!important
+}
+.text{
+    text-align: center;
+}
+.align{
+    display: flex;
+    align-items: center;
+}
+.align1{
+    margin-right: 20px;
+}
+.align2{
+    margin-right: 1px;
+}
+.center
+{
+    margin-right: 100px;
+    
+    padding: 8px;
+}
